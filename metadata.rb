@@ -13,6 +13,7 @@ recipe 'mongodb::shard', 'Installs and configures a single shard'
 recipe 'mongodb::replicaset', 'Installs and configures a mongodb replicaset'
 recipe 'mongodb::mms_monitoring_agent', 'Installs and configures a MongoDB MMS Monitoring Agent'
 recipe 'mongodb::mms_backup_agent', 'Installs and configures a MongoDB MMS Backup Agent'
+recipe 'mongodb::user_management', 'Installs and configures a MongoDB user_management Agent'
 
 depends 'apt', '>= 1.8.2'
 depends 'yum', '>= 3.0'
